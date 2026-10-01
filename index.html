@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{NOME_DO_APP}}</title>
+<style>
+  :root { --bg: #f6f7f8; --fg: #1b252d; --muted: #5a6670; --accent: #0b7a6b; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #11181d; --fg: #e3e9ed; --muted: #9aa7b0; --accent: #4fd1b9; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; padding: 48px 20px; }
+  main { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px; }
+  h1 { margin: 0; font-size: 2rem; line-height: 1.2; }
+  p { margin: 0; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>{{NOME_DO_APP}}</h1>
+  <p>O {{NOME_DO_APP}} é o assistente pessoal de IA de {{NOME}}. Ele roda no computador de {{NOME}} e ajuda a organizar o dia a dia lendo o Gmail, o Google Drive e a Agenda Google da própria conta dele.</p>
+  <p>É um app de uso pessoal. Não é vendido, não tem cadastro e não é oferecido a outras pessoas.</p>
+  <p><a href="privacidade.html">Política de privacidade</a></p>
+  <p class="muted">Contato: {{EMAIL}}</p>
+</main>
+</body>
+</html>

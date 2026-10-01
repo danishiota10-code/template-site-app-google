@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidade · {{NOME_DO_APP}}</title>
+<style>
+  :root { --bg: #f6f7f8; --fg: #1b252d; --muted: #5a6670; --accent: #0b7a6b; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #11181d; --fg: #e3e9ed; --muted: #9aa7b0; --accent: #4fd1b9; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; padding: 48px 20px; }
+  main { max-width: 640px; margin: 0 auto; display: flex; flex-direction: column; gap: 16px; }
+  h1 { margin: 0; font-size: 1.9rem; line-height: 1.2; }
+  h2 { margin: 12px 0 0; font-size: 1.2rem; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.2em; }
+  .muted { color: var(--muted); }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidade</h1>
+  <p class="muted">{{NOME_DO_APP}} · atualizada em {{DATA}}</p>
+
+  <h2>Quem é o responsável</h2>
+  <p>O {{NOME_DO_APP}} é um assistente pessoal criado e usado por {{NOME}}, para uso próprio. Contato: {{EMAIL}}.</p>
+
+  <h2>Quais dados o app acessa</h2>
+  <p>Com a autorização de {{NOME}}, o app acessa, na conta Google dele:</p>
+  <ul>
+    <li>Gmail: ler, organizar e escrever e-mails;</li>
+    <li>Google Drive: ler e criar arquivos;</li>
+    <li>Agenda Google: ler e criar eventos.</li>
+  </ul>
+
+  <h2>Como os dados são usados</h2>
+  <p>Os dados são usados só para o assistente executar o que {{NOME}} pede, no computador dele. O app não tem servidor próprio, não guarda cópia dos dados fora desse computador, não vende, não compartilha e não usa os dados para publicidade.</p>
+
+  <h2>Uso de dados do Google</h2>
+  <p>O uso e a transferência de informações recebidas das APIs do Google seguem a <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Dados do Usuário dos Serviços de API do Google</a>, incluindo os requisitos de Uso Limitado.</p>
+
+  <h2>Como revogar o acesso</h2>
+  <p>O acesso pode ser removido a qualquer momento em <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>. Depois disso, o app não consegue mais acessar a conta.</p>
+</main>
+</body>
+</html>
