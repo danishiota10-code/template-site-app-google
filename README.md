@@ -9,7 +9,7 @@ Este repositório não tem dados de ninguém. Os campos `{{NOME}}`, `{{NOME_DO_A
 No Claude Code, dentro do seu vault, cole:
 
 ```
-Lê https://raw.githubusercontent.com/danishiota10-code/template-site-app-google/main/INSTRUCOES.md e faz o que está lá comigo, passo a passo.
+Abre https://github.com/danishiota10-code/template-site-app-google, lê o arquivo INSTRUCOES.md de lá e faz o que ele manda comigo, passo a passo.
 ```
 
 Ele cria o seu site, publica o app no Google e refaz a autorização. Você só cria a conta no GitHub, responde quatro perguntas e clica em Permitir.
